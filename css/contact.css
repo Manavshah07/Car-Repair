@@ -1,0 +1,74 @@
+/*******************************************************************************************************************************************************************
+                                                                    CONTACT-FORM
+*******************************************************************************************************************************************************************/
+.contact-left{
+    background: #efefef;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    padding-top: 10px;
+    margin-bottom: 90px;
+    margin-right: 100px;
+}
+.contact-left h6{
+    font-size: 24px;
+}
+.contact-left p{
+    text-align: center;
+    color: #808285;
+}
+
+.contact-left input{
+    margin-left: 50px;
+    padding: 10px;
+    width: 75%;
+}
+.contact-left .inputs{
+    border: none;
+    box-shadow: rgba(0,0,0,0.12);
+    margin-top: 10px;
+    
+}
+.contact-left textarea{
+    margin-left: 50px;
+    margin-top: 15px;
+    resize: none;
+    border: none;
+    padding: 10px;
+}
+#contact .btn-yellow{
+    margin-left: 40px;
+}
+.contact-details h5{
+    font-size: 20px;
+    display: inline-block;
+}
+.contact-details p{
+    line-height: 1;
+    color: #808285;
+    display: inline-block;
+}
+.contact-icon i{
+    color: #fff;
+    background: #4d60a5;
+    padding: 20px;
+    border-radius: 50%;
+}
+.contact-right-flex{
+    display: flex;
+}
+.contact-flex{
+    display: flex;
+    justify-content: center
+}
+.contact-details{
+    transform: translateY(-10px);
+    margin-left: 15px;
+}
+
+
+
+
+
+
+

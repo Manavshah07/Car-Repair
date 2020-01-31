@@ -1,0 +1,455 @@
+/**
+ * style.css
+ * Contains CSS for basic static website named "White Graphics"
+ */
+
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Montserrat
+    ----------------------------------------
+    Colors:
+         #4d60a5;
+		#ffdd00;
+        background-color: #47569b;
+		'Montserrat',sans-serif;
+============================================ 
+*/
+/***************************************************************************************************************************************
+                                                        GENERAL SECTION
+***************************************************************************************************************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:'Montserrat',sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+section {
+    background: #fff;
+}
+li{
+    list-style-type: none;
+}
+.text-primary{
+    font-size: 30px;
+    color: #4d60a5;
+    font-weight: 400;
+}
+.text-secondary{
+    font-size: 25px;
+    color: #ffdd00;
+    font-weight: 200;
+}
+.text-grey{
+    color: #808285;
+}
+.btn-yellow{
+    display: inline-block;
+}
+.btn-yellow a{
+    background-color: #ffdd00;
+    color:#232323;
+     background-size: 200% auto;
+    background-image: linear-gradient(to right, #ffdd00 0%, #fcf226 51%, #ffdd00 100%);
+    font-size: 16px;
+    padding: 14px 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+.btn-yellow a:hover{
+    cursor: pointer;
+    background-position: right;
+/*    color: #fff;*/
+}
+.btn-yellow a{
+    color: #232323;
+}
+
+/********************************************************************************************************************************************************
+                                                                SHOWCASE SECTION
+********************************************************************************************************************************************************/
+.showcase-left h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #4d60a5;
+    margin-bottom: 30px;
+}
+.showcase-left p{
+    color: #232323;
+    margin: 5px;
+    font-size: 16px;
+}
+
+/********************************************************************************************************************************************************
+                                                                MIDDLE SECTION
+********************************************************************************************************************************************************/
+#middle{
+    background-color:  #4d60a5;
+}
+.middle-icon i{
+    margin-top: 10px;
+    color:  #ffdd00;
+}
+.middle-left h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+.middle-left p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+/********************************************************************************************************************************************************
+                                                                SERVICE SECTION
+********************************************************************************************************************************************************/
+.text-heading p{
+    color: #808285;
+    font-size: 16px;
+}
+/*
+.right-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Untitled-1.png);
+}
+*/
+.service-item{
+    overflow: hidden;
+    position: relative;
+/*    width: 300px;*/
+    z-index: 3;
+    margin: 0;
+}
+.flexs{
+    display: flex;
+}
+.service-flex{
+    display: flex;
+}
+.service-item img{
+    transition: all .4s ease;
+    z-index: 2;
+}
+.service-item-overlay{
+    background: rgba(0,0,0,0.8);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .4s ease;
+    z-index: 1;
+}
+.service-overlay-details{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.service-overlay-details h4{
+    color: #ffdd00; 
+    font-size: 20px;
+    line-height: 1;
+    margin: 10px 0px 0px 40px;
+    text-transform: uppercase;
+    transform: translateY(-20%);
+    transition: all .4s ease;
+}
+.service-item:hover img {
+    transform: scale(1.2);
+}
+
+.service-item:hover .service-item-overlay {
+    opacity: 1;
+}
+/********************************************************************************************************************************************************
+                                                                CHOOSE-US SECTION
+********************************************************************************************************************************************************/
+.choose-us-wrapper{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.choose-us-img{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/Service-rowBG-free-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.choose-us-overlay{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+.text-white p{
+    color: #fff;
+}
+.choose-us-title{
+    color: #fff;
+    padding-left: 20px;
+}
+.choose-us-item{
+    margin-left: 200px;
+}
+.choose-us-items{
+    margin-left: 70px;
+}
+
+.choose-us-right{
+    background: rgba(255,255,255,0.88);
+    display: inline-block;
+    width: 320px;
+    height: 520px;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 90px;
+    transform: translateY(-10%);
+}
+.choose-us-right h6{
+    color: #4d60a5;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input{
+    margin-left: 30px;
+    padding: 10px;
+    width: 80%;
+}
+.inputs{
+    border: none;
+    box-shadow: rgba(0,0,0,0.12);
+    margin-top: 10px;
+}
+textarea{
+    margin-left: 30px;
+    margin-top: 15px;
+    resize: none;
+    border: none;
+    padding: 10px;
+}
+.m-l-20{
+    margin-left: 20px;
+}
+
+/********************************************************************************************************************************************************
+                                                                CLIENT SECTION
+********************************************************************************************************************************************************/
+.client-desc p{
+    color: #808285;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 30%;
+    margin: 20px auto;
+}
+.client-name h6{
+    font-size: 16px;
+    color: #808285;
+    margin: 5px;
+    margin-top: 30px;
+}
+.client-job h6{
+    font-size: 12px;
+    color: #808285;
+    margin: 0;
+}
+.client-img img{
+    border-radius: 50%;
+}
+#map iframe{
+    height: 700px;
+}
+#map{
+    padding: 0;
+    margin: 0;
+}
+
+
+/********************************************************************************************************************************************************
+                                                                OWL_CAROUSEL SECTION
+********************************************************************************************************************************************************/
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+.owl-theme .owl-dots .owl-dot span{
+}
+
+/********************************************************************************************************************************************************
+                                                                FOOTER SECTION
+********************************************************************************************************************************************************/
+/*#47569b;*/
+#footer{
+    background-color:#4d60a5;
+}
+.footer-flex{
+    display: flex;
+}
+.footer-left{
+    transform: translateX(55%);
+}
+.footer-left p{
+    color: #fff;
+    font-size: 16px;
+    width: 50%;
+/*    margin-left: 30px;*/
+}
+.icons{
+    display: inline-block;
+    padding: 10px;
+    color: #4d60a5;
+    background-color: #fff;
+    margin-left: 10px;
+}
+.icons ul{
+    margin: 0;
+}
+.facebook-icon li i:hover{
+    color: #3b5998;
+}
+.twitter-icon li i:hover{
+    color: #00acee;
+}
+.youtube-icon li i:hover{
+    color: #c4302b;
+}
+.linkedin-icon li i:hover{
+    color:  #0e76a8;
+}
+.text-secondary h5{
+    font-size: 30px;    
+}
+.footer-mission{
+    width: 50%;
+    margin-left: 100px;
+}
+.footer-contact{
+    width: 25%;
+    transform: translateX(-87%);
+}
+.footer-mission p{
+    color: #fff;
+    font-size: 16px;
+    width: 37%;
+    line-height: 1.7;
+}
+.contact-info p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+}
+/********************************************************************************************************************************************************
+                                                                FOOTER-COPYRIGHT SECTION
+********************************************************************************************************************************************************/
+#footer-copyright{
+    background-color: #47569b;
+}
+.copyright-details{
+    color: #fff;
+    margin-left: 170px;
+    font-weight: 700;
+}
+.copyright-name{
+    color: #fff;
+    font-weight: 700;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+
+/******************************************************************************************************************************************************************
+                                                                HEADER SECTION
+******************************************************************************************************************************************************************/
+.links a{
+    color: #000;
+    padding-left: 30px;
+}
+.navs{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.navs .btn-yellow a{
+    margin-left: 30px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-around
+}
+.nav-fixed{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

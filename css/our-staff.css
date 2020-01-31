@@ -1,0 +1,114 @@
+/******************************************************************************************************************************************************************
+                                                            STAFF-INFO
+******************************************************************************************************************************************************************/
+#staff-info .text-primary h2{
+    line-height: 1.2;
+}
+.staff-info-desc p{
+    color: #808285;
+    width: 370px;
+    font-size: 14px;
+}
+.staff-info-flex{
+    display: flex;
+    justify-content: center;
+}
+
+/******************************************************************************************************************************************************************
+                                                            TEAM SECTION
+******************************************************************************************************************************************************************/
+
+.team-members{
+    overflow: hidden;
+    position: relative;
+/*    width: 300px;*/
+    z-index: 3;
+    margin: 0;
+}
+.flexs{
+    display: flex;
+}
+.team-members img{
+    transition: all .4s ease;
+    z-index: 2;
+}
+.team-members-overlay{
+    background: rgba(0,0,0,0.8);
+    display: inline-block;
+    width: 330px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .4s ease;
+    z-index: 1;
+}
+.team-members-overlay-details{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.team-members-overlay-details h4{
+    color: #ffdd00; 
+    font-size: 20px;
+    line-height: 1;
+    margin: 10px 0px 0px 70px;
+    text-transform: uppercase;
+    transform: translateY(-20%);
+    transition: all .4s ease;
+}
+.team-members-overlay-details p{
+    color: #fff;
+    font-size: 16px;
+    transform: translateY(-20%);
+    margin: 10px 0px 0px 70px;
+}
+.team-members:hover img {
+    transform: scale(1.2);
+}
+
+.team-members:hover .team-members-overlay {
+    opacity: 1;
+}
+.team-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+/******************************************************************************************************************************************************************
+                                                                    ABOUT-SHOWCASE SECTION
+******************************************************************************************************************************************************************/
+.about-showcase-wrapper{
+    position: relative;
+}
+.about-showcase-img{
+    background-image: url(../img/Service-rowBG-free-img.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-showcase-overlay{
+    background: rgba(0,0,0,0.8);
+    opacity: 0.9;
+}
+#about-showcase .text-secondary h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#about-showcase p{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/******************************************************************************************************************************************************************
+                                                                    ABOUT-SERVICE SECTION
+******************************************************************************************************************************************************************/
+#about-service .text-primary h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#about-service p{
+    color: #808285;
+    font-size: 14px;
+    width: 370px;
+}
+#about-service .btn-yellow{
+    margin-top: 50px;
+}
+.about-service-left{
+    margin-right: 120px;
+}
+.flexss{
+    display: flex;
+}
+.about-service-img-r{
+    padding-left: 20px;
+}
+.about-service-img-2{
+    padding-top: 20px;
+}
+.flex-service{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/******************************************************************************************************************************************************************
+                                                                    ABOUT-CHOOSEUS SECTION
+******************************************************************************************************************************************************************/
+.choose-us-flex{
+    display: flex;
+    justify-content: center;
+}
+.about-choose-item img{
+    margin-left: 60px;
+}
+.about-choose-item p{
+    color: #808285;
+    font-size: 14px;
+}
+.about-choose-item h3{
+    font-size: 22px;
+} 
+.m-l-80{
+    margin-left: 80px;
+}
+.m-l-30{
+    margin-left: 30px;
+}
+.m-r-10{
+    margin-right: 10px;
+}
+.m-l-50{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
