@@ -74,7 +74,8 @@ li{
     background-color: #ffdd00;
     color:#232323;
      background-size: 200% auto;
-    background-image: linear-gradient(to right, #ffdd00 0%, #fcf226 51%, #ffdd00 100%);
+    background-image: 
+        linear-gradient(to right, #ffdd00 0%, #fcf226 51%, #ffdd00 100%);
     font-size: 16px;
     padding: 14px 40px;
     margin-left: 10px;
@@ -175,6 +176,7 @@ li{
     opacity: 0;
     transition: all .4s ease;
     z-index: 1;
+    width: 500px;
 }
 .service-overlay-details{
     position: absolute;
@@ -201,17 +203,8 @@ li{
 /********************************************************************************************************************************************************
                                                                 CHOOSE-US SECTION
 ********************************************************************************************************************************************************/
-.choose-us-wrapper{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-.choose-us-img{
-    width: 100%;
-    height: 100vh;
-    background: url(../img/Service-rowBG-free-img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.one-frame{
+/*    transform: translate(0,-110%);*/
 }
 .choose-us-overlay{
     background: rgba(0,0,0,0.8);
@@ -224,21 +217,19 @@ li{
     transition: all .3s ease-in-out;
 }
 .text-white p{
-    color: #fff;
+    color: #4d60a5;
 }
 .choose-us-title{
-    color: #fff;
+    color: #000;
     padding-left: 20px;
 }
 .choose-us-item{
-    margin-left: 200px;
-}
-.choose-us-items{
     margin-left: 70px;
 }
 
 .choose-us-right{
-    background: rgba(255,255,255,0.88);
+/*    background: rgba(255,255,255,0.88);*/
+    background: #000;
     display: inline-block;
     width: 320px;
     height: 520px;
@@ -282,7 +273,7 @@ textarea{
     color: #808285;
     font-size: 20px;
     line-height: 1.5;
-    width: 30%;
+    width: 80%;
     margin: 20px auto;
 }
 .client-name h6{
@@ -405,16 +396,21 @@ textarea{
     display: grid;
     grid-template-columns: 8fr 4fr;
 }
-
 /******************************************************************************************************************************************************************
                                                                 HEADER SECTION
 ******************************************************************************************************************************************************************/
+.header-img{
+    position: relative;
+/*    margin-left: 50px; */
+}
 .links a{
     color: #000;
-    padding-left: 30px;
+    transition: all .1s linear;
+    margin-left: 30px;
 }
 .navs{
     display: flex;
+    justify-content: space-between;
     margin-top: 20px;
     margin-right: 50px;
 }
@@ -423,33 +419,80 @@ textarea{
 }
 .header-flex{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 .nav-fixed{
     position: sticky;
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: #fff;
+/*    background-color: #fff;*/
+}
+/*
+.links a:hover,
+.links a:visited{
+    color: #47569b;
+}
+*/
+
+#header ul.navs>li.active>a{
+    border-bottom: solid 2px #47569b;
+    padding-bottom: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.yellow-nav-top{
+/*    background: linear-gradient(to right, #ffdd00 0%, #fcf226 51%, #ffdd00 100%);*/
+/*    background: #00596A;*/
+/*    background: #232323;*/
+}
+#back-to-top{
+    background-image: linear-gradient(to right, #ffdd00 0%, #fcf226 51%, #ffdd00 100%);
+    border-radius: 5px;
+    color: #000;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    font-size: 30px;
+    padding: 0 15px;
+    transition: all .3s ease-in;
+    animation: fadeInRight 2s 1 cubic-bezier(0.77, 0, 0.175,1);
+/*    animation: fadeOutRight 1s 1 cubic-bezier(0.77, 0, 0.175,1);*/
+}
+#back-to-top:hover{
+    background-position: right;
+}
+.burger{
+    position: absolute;
+    top: 23px;
+    right: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px;
+    transition-delay: .3s;
+    transition: all .1s linear;
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+    transition: all .3s infinite;
+}
+.toggle .line2{
+/*    transform: rotate(-45deg translate(-5px,6px));*/
+    opacity: 0;
+    transition: all .3s infinite;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+    transition: all .3s infinite;
+}
 
 
 

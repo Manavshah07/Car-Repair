@@ -46,13 +46,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
     
     <link rel="stylesheet" href="img/logo/Logo-free-img.png">
 </head>
 <body>
 <!--HEADER SECTION-->
     <section id="header">
-           <div class="wrapper-head">
+        <div class="wrapper-head">
             <div class="header-flex m-t-30">
                 <div class="header-img">
                     <img src="img/logo/Logo-free-img.png" alt="" class="img-responsive">
@@ -63,12 +64,12 @@
                         <li class="links"><a href="about.html">About</a></li>
                         <li class="links"><a href="service.html">Services</a></li>
                         <li class="links"><a href="our-staff.html">Our Staff</a></li>
-                        <li class="links"><a href="contact.html">Contact</a></li>
+                        <li class="links active"><a href="contact.html">Contact</a></li>
                         <li class="btn-yellow"><a href="#">Get Estimate</a></li>
                     </ul>
                 </div>
             </div>
-            </div>
+        </div>
     </section>
 <!--/HEADER SECTION-->
 
@@ -173,6 +174,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.4746949965493!2d73.09042481473206!3d19.218132987006488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be79582539e23e7%3A0x74d47b9f571db8cb!2sRoyal%20College!5e0!3m2!1sen!2sin!4v1578057754498!5m2!1sen!2sin" width="100%" height="700" frameborder="0" style="border:0;" allowfullscreen=""></iframe>          
    </section>
 <!--/MAP SECTION-->
+
 <!--FOOTER SECTION-->
     <section id="footer">
         <div class="content-box-md">
@@ -265,7 +267,7 @@
         </div>
     </section>
 <!--/FOOTER SECTION-->
- 
+    <a href="#home" id="back-to-top" class="back-to-top" ><i class="fa fa-angle-up"></i></a>
 <!--JAVA SCRIPT SCRIPTS-->
     <!-- JQuery -->
     <script src="js/jquery.min.js"></script>
@@ -278,7 +280,12 @@
 
     <!-- Magnific Popup -->
     <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-
+    
+    <!--Mapify-->
+    <script src="js/mapify/jquery.mapify.min.js"></script>
+<!--    <script src="js/mapify/jquery.mapify.js"></script>-->
+    <script src="js/mapify/script.js"></script>
+    
     <!-- Counter -->
     <script src="js/counter/jquery.counterup.min.js"></script>
 
@@ -290,6 +297,17 @@
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    <script>
+        $('#map').mapify({
+			points: [{
+					lat: 40.7143528,
+					lng: -74.0059731,
+					marker: true,
+					title: 'Marker title',
+					infoWindow: 'Some Content'
+				}]
+        });
+    </script>
 </body>
 
 </html>

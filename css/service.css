@@ -14,30 +14,3 @@
     display: flex;
     justify-content: center;
 }
-
-/******************************************************************************************************************************************************************
-                                                                HEADER SECTION
-******************************************************************************************************************************************************************/
-.links a{
-    color: #000;
-    padding-left: 30px;
-}
-.navs{
-    display: flex;
-    margin-top: 20px;
-    margin-right: 50px;
-}
-.navs .btn-yellow a{
-    margin-left: 30px;
-}
-.header-flex{
-    display: flex;
-    justify-content: space-around
-}
-.nav-fixed{
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    background-color: #fff;
-}

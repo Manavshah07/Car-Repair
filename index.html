@@ -10,7 +10,8 @@
 
     <!-- Title -->
     <title>Home-Car Repair</title>
-
+    
+    <link rel="stylesheet" href="img/logo/Logo-free-img.png">
     <!-- Basic SEO -->
     <meta name="description" content="Creative and digital agency in Mumbai with expertise in digitalizing the hospitalization experience, digital strategy, brand design, UI design, video also making improvments in providing top class experience.">
     <meta name="keywords" content="UI, UX, Mobile App, Web Design, Web Development, Responsive website, Creative website, Video, Creative Content">
@@ -44,8 +45,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/helper-classes.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     
-    <link rel="stylesheet" href="img/logo/Logo-free-img.png">
 </head>
 
 <body>
@@ -53,14 +54,14 @@
     <section id="home">
 <!--HEADER SECTION-->
     <section id="header">
-           <div class="wrapper-head">
-            <div class="header-flex m-t-30">
+        <div class="wrapper-head yellow-nav-top">
+            <div class="navbar header-flex m-t-30">
                 <div class="header-img">
                     <img src="img/logo/Logo-free-img.png" alt="" class="img-responsive">
                 </div>
-                <div class="navbar">
+                <div class="navbar-links">
                     <ul class="navs">
-                        <li class="links"><a href="index.html">Home</a></li>
+                        <li class="links active"><a href="index.html">Home</a></li>
                         <li class="links"><a href="about.html">About</a></li>
                         <li class="links"><a href="service.html">Services</a></li>
                         <li class="links"><a href="our-staff.html">Our Staff</a></li>
@@ -68,8 +69,13 @@
                         <li class="btn-yellow"><a href="#">Get Estimate</a></li>
                     </ul>
                 </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
             </div>
-            </div>
+        </div>
     </section>
 <!--/HEADER SECTION-->
 
@@ -147,7 +153,7 @@
                         <div class="service-flex m-t-50">    
                             <div class="service-item m-b-10">
                                 <a href="img/service/Service1-free-img.jpg">
-                                    <img src="img/service/Service1-free-img.jpg" alt="" class="img-responsive">
+                                    <img src="img/service/Service1-free-img.jpg" alt="" class="img-responsive" width="500px">
                                     <div class="service-item-overlay">
                                         <div class="service-overlay-details">
                                             <h4>Auto Maintenance Services</h4>
@@ -159,7 +165,7 @@
                 <!--SERVICE ITEM-2-->
                             <div class="service-item m-b-10">
                                 <a href="img/service/Service2-free-img.jpg">
-                                    <img src="img/service/Service2-free-img.jpg" alt="" class="img-responsive">
+                                    <img src="img/service/Service2-free-img.jpg" alt="" class="img-responsive" width="500px">
                                     <div class="service-item-overlay">
                                         <div class="service-overlay-details">
                                             <h4>Brake Repair Pads &amp; Rotors</h4>
@@ -171,7 +177,7 @@
                 <!--SERVICE ITEM-3-->
                             <div class="service-item m-b-10">
                                 <a href="img/service/Service3-free-img.jpg">
-                                    <img src="img/service/Service3-free-img.jpg" alt="" class="img-responsive">
+                                    <img src="img/service/Service3-free-img.jpg" alt="" class="img-responsive" width="500px">
                                     <div class="service-item-overlay">
                                         <div class="service-overlay-details">
                                             <h4>Shocks Struts Replacement</h4>
@@ -185,7 +191,7 @@
                         <div class="service-flex">
                             <div class="service-item m-b-10">
                                 <a href="img/service/Service4-free-img.jpg">
-                                    <img src="img/service/Service4-free-img.jpg" alt="" class="img-responsive">
+                                    <img src="img/service/Service4-free-img.jpg" alt="" class="img-responsive" width="500px">
                                     <div class="service-item-overlay">
                                         <div class="service-overlay-details">
                                             <h4>System Diagnosis &amp; Repair</h4>
@@ -197,7 +203,7 @@
                 <!--SERVICE ITEM-5-->
                             <div class="service-item m-b-10">
                                 <a href="img/service/Service5-free-img.jpg">
-                                    <img src="img/service/Service5-free-img.jpg" alt="" class="img-responsive">
+                                    <img src="img/service/Service5-free-img.jpg" alt="" class="img-responsive" width="500px">
                                     <div class="service-item-overlay">
                                         <div class="service-overlay-details">
                                             <h4>Air Conditioning Services</h4>
@@ -209,7 +215,7 @@
                 <!--SERVICE ITEM-6-->
                             <div class="service-item m-b-10">
                                 <a href="img/service/Service6-free-img.jpg">
-                                    <img src="img/service/Service6-free-img.jpg" alt="" class="img-responsive">
+                                    <img src="img/service/Service6-free-img.jpg" alt="" class="img-responsive" width="500px">
                                     <div class="service-item-overlay">
                                         <div class="service-overlay-details">
                                             <h4>Tires &amp; Wheel Balancing</h4>
@@ -226,121 +232,113 @@
 <!--/SERVICE SECTION-->
    
 <!--CHOOSE-US SECTION-->
-    <section id="choose-us">
-        <div class="choose-us-wrapper">
-            <div class="choose-us-img parallax-effect">
-                <div class="choose-us-overlay">                
-                    <div class="content-box-md">
-                        <div class="container">
-                            <div class="text-heading">
-                                <div class="text-secondary">
-                                    <h2>Why Choose Us</h2>
+    <section id="choose-us">                
+            <div class="container">
+                <div class="text-heading">
+                    <div class="text-secondary">
+                        <h2>Why Choose Us</h2>
+                    </div>
+                    <div class="text-white">
+                        <p>Curabitur aliquet quam id dui posuere blandit.</p>
+                    </div>
+                </div>
+                <div class="flexs">
+                    <div class="choose-us-left">
+                    <!--CHOOSE-US-ITEM 1-->
+                        <div class="flexs">
+                            <div class="choose-us-item flexs m-t-50">
+                                <div class="choose-us-left-img">
+                                    <img src="img/home/fix-skills-free-img.png" alt="" class="img-responsive">
                                 </div>
-                                <div class="text-white">
-                                    <p>Curabitur aliquet quam id dui posuere blandit.</p>
+                                <div class="choose-us-title">
+                                    <h4>Experience Skills</h4>
+                                    <p>Curabitur aliquet quam id.</p>
+                                </div>
+                            </div>
+                    <!--/CHOOSE-US-ITEM 1-->
+                    <!--CHOOSE-US-ITEM 2-->
+                            <div class="choose-us-item flexs m-t-50">
+                                <div class="choose-us-left-img">
+                                    <img src="img/home/speedometer-free-img.png" alt="" class="img-responsive">
+                                </div>
+                                <div class="choose-us-title">
+                                    <h4>Guarantee Services</h4>
+                                    <p>Curabitur aliquet quam id.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flexs">
-                            <div class="choose-us-left">
-                        <!--CHOOSE-US-ITEM 1-->
-                                <div class="flexs">
-                                    <div class="choose-us-item flexs m-t-50">
-                                        <div class="choose-us-left-img">
-                                            <img src="img/home/fix-skills-free-img.png" alt="" class="img-responsive">
-                                        </div>
-                                        <div class="choose-us-title">
-                                            <h4>Experience Skills</h4>
-                                            <p>Curabitur aliquet quam id.</p>
-                                        </div>
+                    <!--/CHOOSE-US-ITEM 2-->
+                    <!--CHOOSE-US-ITEM 3-->
+                            <div class="flexs">
+                                <div class="choose-us-item flexs m-t-90">
+                                    <div class="choose-us-left-img">
+                                        <img src="img/home/mechanic-free-img.png" alt="" class="img-responsive">
                                     </div>
-                        <!--/CHOOSE-US-ITEM 1-->
-                        <!--CHOOSE-US-ITEM 2-->
-                                    <div class="choose-us-items flexs m-t-50">
-                                        <div class="choose-us-left-img">
-                                            <img src="img/home/speedometer-free-img.png" alt="" class="img-responsive">
-                                        </div>
-                                        <div class="choose-us-title">
-                                            <h4>Guarantee Services</h4>
-                                            <p>Curabitur aliquet quam id.</p>
-                                        </div>
+                                    <div class="choose-us-title">
+                                        <h4>Experience Skills</h4>
+                                        <p>Curabitur aliquet quam id.</p>
                                     </div>
                                 </div>
-                        <!--/CHOOSE-US-ITEM 2-->
-                        <!--CHOOSE-US-ITEM 3-->
-                                <div class="flexs">
-                                    <div class="choose-us-item flexs m-t-90">
-                                        <div class="choose-us-left-img">
-                                            <img src="img/home/mechanic-free-img.png" alt="" class="img-responsive">
-                                        </div>
-                                        <div class="choose-us-title">
-                                            <h4>Experience Skills</h4>
-                                            <p>Curabitur aliquet quam id.</p>
-                                        </div>
-                                    </div>
                         <!--/CHOOSE-US-ITEM 3-->
                         <!--CHOOSE-US-ITEM 4-->
-                                    <div class="choose-us-items flexs m-t-90">
-                                        <div class="choose-us-left-img">
-                                            <img src="img/home/alloy-wheel-free-img.png" alt="" class="img-responsive">
-                                        </div>
-                                        <div class="choose-us-title">
-                                            <h4>Experience Skills</h4>
-                                            <p>Curabitur aliquet quam id.</p>
-                                        </div>
+                                <div class="choose-us-item flexs m-t-90">
+                                    <div class="choose-us-left-img">
+                                        <img src="img/home/alloy-wheel-free-img.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="choose-us-title">
+                                        <h4>Experience Skills</h4>
+                                        <p>Curabitur aliquet quam id.</p>
                                     </div>
                                 </div>
+                            </div>
                         <!--/CHOOSE-US-ITEM 4-->
                         <!--CHOOSE-US-ITEM 5-->
-                                <div class="flexs">
-                                    <div class="choose-us-item flexs m-t-90">
-                                        <div class="choose-us-left-img">
-                                            <img src="img/home/wallet-free-img.png" alt="" class="img-responsive">
-                                        </div>
-                                        <div class="choose-us-title">
-                                            <h4>Experience Skills</h4>
-                                            <p>Curabitur aliquet quam id.</p>
-                                        </div>
+                            <div class="flexs">
+                                <div class="choose-us-item flexs m-t-90">
+                                    <div class="choose-us-left-img">
+                                        <img src="img/home/wallet-free-img.png" alt="" class="img-responsive">
                                     </div>
+                                    <div class="choose-us-title">
+                                        <h4>Experience Skills</h4>
+                                        <p>Curabitur aliquet quam id.</p>
+                                    </div>
+                                </div>
                         <!--/CHOOSE-US-ITEM 5-->
                         <!--CHOOSE-US-ITEM 6-->
-                                    <div class="choose-us-items flexs m-t-90">
-                                        <div class="choose-us-left-img">
-                                            <img src="img/home/air-conditioning-free-img.png" alt="" class="img-responsive">
-                                        </div>
-                                        <div class="choose-us-title">
-                                            <h4>Experience Skills</h4>
-                                            <p>Curabitur aliquet quam id.</p>
-                                        </div>
+                                <div class="choose-us-item flexs m-t-90">
+                                    <div class="choose-us-left-img">
+                                        <img src="img/home/air-conditioning-free-img.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="choose-us-title">
+                                        <h4>Experience Skills</h4>
+                                        <p>Curabitur aliquet quam id.</p>
                                     </div>
                                 </div>
-                        <!--/CHOOSE-US-ITEM 6-->                     
                             </div>
-                            <div class="choose-us-right">
-                                <h6>Request Call Back</h6>
-                                <form action="">
-                                    <div class="form-group">
+                        <!--/CHOOSE-US-ITEM 6-->                     
+                        </div>
+                        <div class="choose-us-right">
+                            <h6>Request Call Back</h6>
+                            <form action="">
+                                <div class="form-group">
                                     <input class="inputs" type="text" placeholder="Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="inputs" type="text" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="inputs" type="number" placeholder="Number">
-                                    </div>
-                                    <div class="message">
-                                        <textarea name="" id="" cols="31" rows="5" placeholder="Your Message"></textarea>
-                                    </div>
-                                </form>
-                                <div class="btn-yellow m-l-20 m-t-30">
-                                    <a href="">Send Request</a>
                                 </div>
+                                <div class="form-group">
+                                    <input class="inputs" type="text" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input class="inputs" type="number" placeholder="Number">
+                                </div>
+                                <div class="message">
+                                    <textarea name="" id="" cols="31" rows="5" placeholder="Your Message"></textarea>
+                                </div>
+                            </form>
+                            <div class="btn-yellow m-l-20 m-t-30">
+                                <a href="">Send Request</a>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
-        </div>
     </section>   
 <!--/CHOOSE-US SECTION-->
    
@@ -359,7 +357,7 @@
                         <img class="" src="img/home/Car-testimonial-free-img.png" alt="" class="img-responsive">
                     </div>
                     <div class="client-desc text-center">
-                        <p>Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.Sed porttitor lectus nibh. Mauris blandit aliquet elit, eget pulvinar a.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
                     </div>
                     <div class="client-name text-center">
                         <h6>Howard Chavez</h6>
@@ -368,12 +366,12 @@
                         <h6>Founder</h6>
                     </div>
                 </div>
-                <div class="client-1">
+                <div class="client-2">
                     <div class="client-img text-center m-t-70">
                         <img class="" src="img/home/client-1.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="client-desc text-center">
-                        <p>Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.Sed porttitor lectus nibh. Mauris blandit aliquet elit, eget pulvinar a.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
                     </div>
                     <div class="client-name text-center">
                         <h6>John Doe</h6>
@@ -382,12 +380,96 @@
                         <h6>CEO</h6>
                     </div>
                 </div>
-                <div class="client-1">
+                <div class="client-3">
                     <div class="client-img text-center m-t-70">
                         <img class="" src="img/home/client-2.jpg" alt="" class="img-responsive">
                     </div>
                     <div class="client-desc text-center">
-                        <p>Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.Sed porttitor lectus nibh. Mauris blandit aliquet elit, eget pulvinar a.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
+                    </div>
+                    <div class="client-name text-center">
+                        <h6>Jane Doe</h6>
+                    </div>
+                    <div class="client-job text-center">
+                        <h6>Manager</h6>
+                    </div>
+                </div>
+                <div class="client-4">
+                    <div class="client-img text-center m-t-70">
+                        <img class="" src="img/home/team-1.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="client-desc text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
+                    </div>
+                    <div class="client-name text-center">
+                        <h6>Jane Doe</h6>
+                    </div>
+                    <div class="client-job text-center">
+                        <h6>Manager</h6>
+                    </div>
+                </div>
+                <div class="client-5">
+                    <div class="client-img text-center m-t-70">
+                        <img class="" src="img/home/team-2.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="client-desc text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
+                    </div>
+                    <div class="client-name text-center">
+                        <h6>Jane Doe</h6>
+                    </div>
+                    <div class="client-job text-center">
+                        <h6>Manager</h6>
+                    </div>
+                </div>
+                <div class="client-6">
+                    <div class="client-img text-center m-t-70">
+                        <img class="" src="img/home/team-3.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="client-desc text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
+                    </div>
+                    <div class="client-name text-center">
+                        <h6>Jane Doe</h6>
+                    </div>
+                    <div class="client-job text-center">
+                        <h6>Manager</h6>
+                    </div>
+                </div>
+                <div class="client-7">
+                    <div class="client-img text-center m-t-70">
+                        <img class="" src="img/home/team-4.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="client-desc text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
+                    </div>
+                    <div class="client-name text-center">
+                        <h6>Jane Doe</h6>
+                    </div>
+                    <div class="client-job text-center">
+                        <h6>Manager</h6>
+                    </div>
+                </div>
+                <div class="client-8">
+                    <div class="client-img text-center m-t-70">
+                        <img class="" src="img/home/team-5.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="client-desc text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
+                    </div>
+                    <div class="client-name text-center">
+                        <h6>Jane Doe</h6>
+                    </div>
+                    <div class="client-job text-center">
+                        <h6>Manager</h6>
+                    </div>
+                </div>
+                <div class="client-9">
+                    <div class="client-img text-center m-t-70">
+                        <img class="" src="img/home/team-6.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="client-desc text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias provident esse cumque quia quos.</p>
                     </div>
                     <div class="client-name text-center">
                         <h6>Jane Doe</h6>
@@ -400,11 +482,13 @@
         </div>
     </section>
 <!--/CLIENT SECTION-->
+
 <!--MAP SECTION-->
-    <section id="map">
+    <section id="map" class="m-t-30">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.4746949965493!2d73.09042481473206!3d19.218132987006488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be79582539e23e7%3A0x74d47b9f571db8cb!2sRoyal%20College!5e0!3m2!1sen!2sin!4v1578057754498!5m2!1sen!2sin" width="100%" height="700" frameborder="0" style="border:0;" allowfullscreen=""></iframe>          
    </section>
 <!--/MAP SECTION-->
+
 <!--FOOTER SECTION-->
     <section id="footer">
         <div class="content-box-md">
@@ -497,6 +581,9 @@
         </div>
     </section>
 <!--/FOOTER SECTION-->
+<!--    <div class="btn-yellow">-->
+        <a href="#home" id="back-to-top" class="btn-top" ><i class="fa fa-angle-up"></i></a>
+<!--    </div>-->
 <!--/HOME SECTION-->
 
     <!--JAVA SCRIPT SCRIPTS-->
@@ -511,6 +598,9 @@
 
     <!-- Magnific Popup -->
     <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    
+    <!--Mapify-->
+    <script src="js/mapify/jquery.mapify.js"></script>
 
     <!-- Counter -->
     <script src="js/counter/jquery.counterup.min.js"></script>

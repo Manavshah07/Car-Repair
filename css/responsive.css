@@ -2,3 +2,920 @@
  * style.css
  * Contains CSS to make site responsive i.e. mobile and tab friendly.
  */
+
+/******************************************************************************************************************************************************************
+                                                                INDEX FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 280px) and (max-width: 599px)
+{
+    body{
+        overflow-x: hidden;
+    }
+/*SHOWCASE SECTION*/
+    #showcase .showcase-left h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #showcase .btn-yellow a{
+        margin-left: 120px;
+    }
+    
+/*MIDDLE SECTION*/
+    #middle .middle-icon i{
+        margin-left: 180px;
+    }
+    #middle .middle-left h3{
+        font-size: 22px;
+        text-align: center;
+    }
+    #middle .middle-left p{
+        text-align: center;
+    }
+    #middle .m-b-50{
+        margin-bottom: 20px;
+    }
+    #middle .btn-yellow a{
+        margin-left: 120px;
+    }
+    
+/*SERVICE SECTION*/
+    #service .text-heading p{
+        font-size: 14px;
+    }
+    #service .service-flex{
+        display: block;
+    }
+    #service .service-overlay-details h4{
+        transform: translate(10%,0);    
+}
+
+/*CHOOSE-US SECTION*/
+    #choose-us .flexs{
+        display: block;
+    }
+    #choose-us .choose-us-img{
+        height: 100vh;
+    }
+    #choose-us .text-heading .text-secondary h2{
+        text-align: center;
+    }
+    #choose-us .text-heading .text-white p{
+        text-align: center;
+    }
+    #choose-us .choose-us-right{
+        padding-top: 10px;
+        margin-top: 50px; 
+        margin-bottom: 0px;
+        transform: translateY(0);
+    }
+    #choose-us .choose-us-left-img{
+        margin-left: 50px;
+    }
+    #choose-us .choose-us-item{
+        margin-left: 150px;
+        margin-top: 40px!important;
+    }
+/*FOOTER SECTION*/
+    #footer .footer-left{
+        transform: translate(0);
+        margin-left: 150px;
+    }
+    #footer .footer-left p{
+        font-size: 14px;
+    /*    margin-left: 30px;*/
+        margin-top: -1x0;
+    }
+
+    #footer .footer-mission{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    #footer .footer-mission p{
+        width: 100%;
+        font-size: 14px;
+    }
+    #footer .footer-flex{
+        display: block;
+    }
+    #footer .footer-contact{
+        transform: translate(0);
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 50px;
+/*        text-align: center;*/
+    }
+    #footer .contact-info p{
+        color: #fff;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    #footer .footer-mission .m-b-30{
+        margin-bottom: 10px!important;
+    }
+    #footer .footer-left .m-b-30{
+        margin-bottom: 10px!important;
+    }
+    #footer .footer-left .m-t-30{
+        margin-top: 10px!important;
+    }
+    #footer .footer-contact .m-t-30{
+        margin-top: 10px!important;
+    }
+/*FOOTER-COPYRIGHT SECTION*/
+    #footer-copyright .grid{
+        display: block;
+    }
+    #footer-copyright .copyright-details{
+        margin-left: 0;
+        text-align: center;
+    }
+    #footer-copyright .copyright-name{
+        text-align: center;
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                ABOUT FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 280px) and (max-width: 599px)
+{
+    body{
+        overflow-x: hidden;
+    }
+/*ABOUT-SHOWCASE SECTION*/
+    #about-showcase .text-secondary h1{
+        font-size: 50px;
+    }
+    #about-showcase p{
+        font-size: 14px;
+    }
+/*ABOUT-SERVICE SECTION*/
+    #about-service .flex-service{
+        display: block;
+    }
+    .about-service-left{
+        margin:0 0 50px 30px;
+    }
+    #about-service p{
+        width: 100%;
+    }
+    #about-service .m-t-80{
+        margin-top: 30px!important;
+    }
+    #about-service .about-service-right img{
+        width: 200px;
+        margin-left: 30px;
+    }
+    #about-service .about-service-right .about-service-img-r img{
+        width: 202px;
+        margin-left: 0;
+    }
+/*ABOUT-CHOOSE-US SECTION*/
+    #about-choose-us .choose-us-flex{
+        display: block;
+    }
+    #about-choose-us .about-choose-item{
+        margin: 50px 0 0 160px;
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                SERVICE FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 280px) and (max-width: 599px)
+{
+/*SERVICES SECTION*/
+    #services .services-flex{
+        display: block;
+    }
+    #services .services-item{
+        transform: translateX(10%);
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                OUR-STAFF FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 280px) and (max-width: 599px)
+{
+/*STAFF-INFO*/
+    #staff-info .staff-info-flex{
+        display: block;
+        margin-left: 50px;
+    }
+    #staff-info .staff-info-right .m-l-80{
+        margin-left: 0!important;
+    }
+    #staff-info .staff-info-right .staff-info-img img{
+        width: 400px;
+    }
+/*TEAM SECTION*/
+    #team .team-flex{
+        display: block;
+        margin-left: 80px;
+    }
+    #team .text-heading p{
+        font-size: 16px;
+        margin-left: 15px;
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                CONTACT FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 280px) and (max-width: 599px)
+{
+/*CONTACT SECTION*/
+    #contact .contact-flex{
+        display: block;
+    }
+    #contact .contact-left{
+        margin: 0 0 0 60px;
+    }
+    #contact .contact-right{
+        margin-left: 60px;
+        margin-top: 50px!important;
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                NAVBAR
+******************************************************************************************************************************************************************/
+@media only screen and (max-width: 768px)
+{    
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    #header ul.navs>li.active>a{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .navbar-links .btn-yellow{
+        display: none;
+    }
+    .navbar-links li{
+        text-align: center;
+/*        padding: 5px;*/
+    }
+    .navbar-links li a{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .navbar-links li a:active,
+    .navbar-links li a:hover{
+        color: #47569b;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+    .burger{
+        display: block;
+    }
+}
+
+ 
+
+
+
+
+
+/******************************************************************************************************************************************************************
+                                                                INDEX FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 600px) and (max-width: 990px)
+{
+    body{
+        overflow-x: hidden;
+    }
+/*SHOWCASE SECTION*/
+    #showcase .showcase-left h1{
+        font-size: 50px;
+    }
+    #showcase .btn-yellow a{
+        margin-left: 0px;
+    }
+    
+/*MIDDLE SECTION*/
+    #middle .middle-icon i{
+        margin-left: 270px;
+    }
+    #middle .middle-left h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    #middle .middle-left p{
+        text-align: center;
+    }
+    #middle .m-b-50{
+        margin-bottom: 20px;
+    }
+    #middle .btn-yellow a{
+        margin-left: 220px;
+    }
+    
+/*SERVICE SECTION*/
+    #service .text-heading p{
+        font-size: 16px;
+    }
+    #service .service-flex{
+        display: block;
+    }
+    #service .service-overlay-details h4{
+        transform: translate(10%,0);    
+    }
+    #service .service-item img{
+        width: 650px;
+    }
+/*CHOOSE-US SECTION*/
+    #choose-us .flexs{
+        display: block;
+    }
+    #choose-us .choose-us-img{
+        height: 100vh;
+    }
+    #choose-us .text-heading .text-secondary h2{
+        text-align: center;
+    }
+    #choose-us .text-heading .text-white p{
+        text-align: center;
+    }
+    #choose-us .choose-us-right{
+        padding-top: 10px;
+        margin-top: 50px; 
+        margin-bottom: 0px;
+        transform: translateY(0);
+    }
+    #choose-us .choose-us-left-img{
+        margin-left: 50px;
+    }
+    #choose-us .choose-us-item{
+        margin-left: 150px;
+        margin-top: 40px!important;
+    }
+/*FOOTER SECTION*/
+    #footer .footer-left{
+        transform: translate(0);
+        margin-left: 150px;
+    }
+    #footer .footer-left p{
+        font-size: 16px;
+    /*    margin-left: 30px;*/
+        margin-top: -1x0;
+    }
+
+    #footer .footer-mission{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    #footer .footer-mission p{
+        width: 100%;
+        font-size: 16px;
+    }
+    #footer .footer-flex{
+        display: block;
+    }
+    #footer .footer-contact{
+        transform: translate(0);
+        width: 100%;
+        margin-left: 150px;
+        margin-top: 50px;
+/*        text-align: center;*/
+    }
+    #footer .contact-info p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    #footer .footer-mission .m-b-30{
+        margin-bottom: 10px!important;
+    }
+    #footer .footer-left .m-b-30{
+        margin-bottom: 10px!important;
+    }
+    #footer .footer-left .m-t-30{
+        margin-top: 10px!important;
+    }
+    #footer .footer-contact .m-t-30{
+        margin-top: 10px!important;
+    }
+/*FOOTER-COPYRIGHT SECTION*/
+    #footer-copyright .grid{
+        display: block;
+    }
+    #footer-copyright .copyright-details{
+        margin-left: 0;
+        text-align: center;
+    }
+    #footer-copyright .copyright-name{
+        text-align: center;
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                ABOUT FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 600px) and (max-width: 990px)
+{
+    body{
+        overflow-x: hidden;
+    }
+/*ABOUT-SHOWCASE SECTION*/
+    #about-showcase .text-secondary h1{
+        font-size: 55px;
+    }
+    #about-showcase p{
+        font-size: 16px;
+    }
+/*ABOUT-SERVICE SECTION*/
+    #about-service .flex-service{
+        display: block;
+    }
+    .about-service-left{
+        margin:0 0 50px 30px;
+    }
+    #about-service p{
+        width: 100%;
+    }
+    #about-service .m-t-80{
+        margin-top: 30px!important;
+    }
+    #about-service .about-service-right img{
+        width: 200px;
+        margin-left: 30px;
+    }
+    #about-service .about-service-right .about-service-img-r img{
+        width: 202px;
+        margin-left: 0;
+    }
+/*ABOUT-CHOOSE-US SECTION*/
+    #about-choose-us .choose-us-flex{
+        display: block;
+    }
+    #about-choose-us .about-choose-item{
+        margin: 50px 0 0 160px;
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                SERVICE FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 600px) and (max-width: 990px)
+{
+/*SERVICES SECTION*/
+    #services .services-flex{
+        display: block;
+    }
+    #services .services-item{
+        transform: translateX(10%);
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                OUR-STAFF FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 600px) and (max-width: 990px)
+{
+/*STAFF-INFO*/
+    #staff-info .staff-info-flex{
+        display: block;
+        margin-left: 50px;
+    }
+    #staff-info .staff-info-right .m-l-80{
+        margin-left: 0!important;
+    }
+    #staff-info .staff-info-right .staff-info-img img{
+        width: 400px;
+    }
+/*TEAM SECTION*/
+    #team .team-flex{
+        display: block;
+        margin-left: 80px;
+    }
+    #team .text-heading p{
+        font-size: 16px;
+        margin-left: 15px;
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                CONTACT FILE
+******************************************************************************************************************************************************************/
+@media only screen and (min-width: 600px) and (max-width: 990px)
+{
+/*CONTACT SECTION*/
+    #contact .contact-flex{
+        display: block;
+    }
+    #contact .contact-left{
+        margin: 0 0 0 60px;
+    }
+    #contact .contact-right{
+        margin-left: 60px;
+        margin-top: 50px!important;
+    }
+}
+
+/******************************************************************************************************************************************************************
+                                                                NAVBAR
+******************************************************************************************************************************************************************/
+@media only screen and (max-width: 850px)
+{    
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    #header ul.navs>li.active>a{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .navbar-links .btn-yellow{
+        display: none;
+    }
+    .navbar-links li{
+        text-align: center;
+/*        padding: 5px;*/
+    }
+    .navbar-links li a{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .navbar-links li a:active,
+    .navbar-links li a:hover{
+        color: #47569b;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+    .burger{
+        display: block;
+    }
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
