@@ -47,8 +47,10 @@
     }
     #service .service-overlay-details h4{
         transform: translate(10%,0);    
-}
-
+    }
+    #service .service-item img{
+        width: 500px;
+    }
 /*CHOOSE-US SECTION*/
     #choose-us .flexs{
         display: block;
@@ -336,6 +338,7 @@
     #service .service-item img{
         width: 650px;
     }
+    
 /*CHOOSE-US SECTION*/
     #choose-us .flexs{
         display: block;
@@ -528,7 +531,7 @@
 /******************************************************************************************************************************************************************
                                                                 NAVBAR
 ******************************************************************************************************************************************************************/
-@media only screen and (max-width: 850px)
+@media only screen and (max-width: 768px)
 {    
     .navbar-links{
         display: none;
@@ -571,7 +574,12 @@
 }
 
  
-
+@media only screen and (max-width: 990px)
+{
+    .header-flex{
+        display: block;
+    }
+}
 
 
 
